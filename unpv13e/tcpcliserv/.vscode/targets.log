@@ -1,0 +1,622 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 2010  Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul 26 19:30:05 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = gnome-classic
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_TYPE = x11
+# makefile (from `../Make.defines', line 19)
+LIBUNP_NAME = ../libunp.a
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/gdm/auth-for-test-0vyCFd/database
+# environment
+GDMSESSION = gnome-classic
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/test/myvscode/unpv13e/tcpcliserv
+# makefile
+SHELL = /bin/sh
+# environment
+GDM_LANG = zh_CN.UTF-8
+# environment
+VTE_VERSION = 5204
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/test/.config/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/test/.config/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/test/.config/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/home/test/.config/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `../Make.defines', line 12)
+CFLAGS = -I../lib -g -O2 -D_REENTRANT -Wall
+# makefile (from `../Make.defines', line 38)
+LIBXTI_OBJS = wrapxti.o xti_accept.o xti_flags_str.o xti_getopt.o xti_ntop.o xti_ntop_host.o xti_rdwr.o xti_setopt.o xti_str_opts.o xti_tlook_str.o
+# makefile (from `../Make.defines', line 1)
+MAKEFILE_LIST :=  Makefile ../Make.defines
+# automatic
+@F = $(notdir $@)
+# makefile (from `../Make.defines', line 32)
+LIBGAI_OBJS = 
+# environment
+HISTCONTROL = ignoredups
+# environment
+USERNAME = test
+# environment
+XDG_DATA_DIRS = /home/test/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-FBKff4yDEH,guid=54b33f52efe9d6a6930e5e7e62deda92
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# environment
+VSCODE_CWD = /home/test/myvscode/unpv13e/tcpcliserv
+# environment
+PATH = /usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/g++:/home/test/.local/bin:/home/test/bin
+# makefile (from `../Make.defines', line 26)
+LIB_OBJS = connect_nonb.o connect_timeo.o daemon_inetd.o daemon_init.o dg_cli.o dg_echo.o error.o get_ifi_info.o gf_time.o host_serv.o family_to_level.o mcast_leave.o mcast_join.o mcast_get_if.o mcast_get_loop.o mcast_get_ttl.o mcast_set_if.o mcast_set_loop.o mcast_set_ttl.o my_addrs.o read_fd.o readline.o readn.o readable_timeo.o rtt.o signal.o signal_intr.o sock_bind_wild.o sock_cmp_addr.o sock_cmp_port.o sock_ntop.o sock_ntop_host.o sock_get_port.o sock_set_addr.o sock_set_port.o sock_set_wild.o sockfd_to_family.o str_cli.o str_echo.o tcp_connect.o tcp_listen.o tv_sub.o udp_client.o udp_connect.o udp_server.o wraplib.o wrapsock.o wrapstdio.o wrappthread.o wrapunix.o write_fd.o writen.o writable_timeo.o
+# environment
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/2151,unix/unix:/tmp/.ICE-unix/2151
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver check-symlink
+# environment
+LS_COLORS = rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+# makefile (from `../Make.defines', line 29)
+LIBFREE_OBJS = in_cksum.o inet_ntop.o inet_pton.o
+# environment
+XDG_SESSION_DESKTOP = gnome-classic
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# makefile (from `../Make.defines', line 40)
+CLEANFILES = core core.* *.core *.o temp.* *.out typescript* *.lc *.lh *.bsdi *.sparc *.uw
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+IMSETTINGS_INTEGRATE_DESKTOP = yes
+# makefile (from `../Make.defines', line 23)
+LIBUNPXTI_NAME = ../libunpxti.a
+# environment
+PWD = /home/test/myvscode/unpv13e/tcpcliserv
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 2283
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME-Classic:GNOME
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/test
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/test/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = test
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from `../Make.defines', line 15)
+RANLIB = ranlib
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 3.82
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = mylinux
+# environment
+XDG_VTNR = 1
+# environment
+MAKELEVEL := 0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 4
+# makefile (from `../Make.defines', line 11)
+CC = gcc
+# environment
+GNOME_SHELL_SESSION_MODE = classic
+# environment
+XDG_SESSION_ID = 1
+# environment
+USER = test
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = GNOME-Classic:GNOME
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# environment
+IMSETTINGS_MODULE = none
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-489b2748-1.69.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MAIL = /var/spool/mail/test
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+NO_AT_BRIDGE = 1
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 3)
+PROGS = tcpcli01 tcpcli04 tcpcli05 tcpcli06 tcpcli07 tcpcli08 tcpcli09 tcpcli10 tcpserv01 tcpserv02 tcpserv03 tcpserv04 tcpserv08 tcpserv09 tcpservselect01 tcpservpoll01 tsigpipe
+# environment
+LC_ALL = C
+# environment
+SBX_CHROME_API_RQ = 1
+# makefile (from `../Make.defines', line 13)
+LIBS = ../libunp.a -lpthread
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/b31c911c_f8e8_40d4_9365_76bb275bca2d
+# automatic
+^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.104
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 1000
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 1
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from `../Make.defines', line 35)
+LIBROUTE_OBJS = get_rtaddrs.o if_indextoname.o if_nameindex.o if_nametoindex.o net_rt_iflist.o net_rt_dump.o sock_masktop.o
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 23854
+# makefile (from `../Make.defines', line 14)
+LIBS_XTI = ../libunpxti.a ../libunp.a -lpthread
+# variable set hash-table stats:
+# Load=108/1024=11%, Rehash=0, Collisions=10/133=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64768, inode 19572788): 75 files, no impossibilities.
+
+# 75 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+tcpcli06: tcpcli06.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.526071652
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 20):
+		${CC} ${CFLAGS} -o $@ tcpcli06.o ${LIBS}
+
+tcpcli07: tcpcli07.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.581072301
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 23):
+		${CC} ${CFLAGS} -o $@ tcpcli07.o ${LIBS}
+
+tcpcli08: tcpcli08.o str_cli08.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.667073314
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 26):
+		${CC} ${CFLAGS} -o $@ tcpcli08.o str_cli08.o ${LIBS}
+
+tcpcli09: tcpcli09.o str_cli09.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.756074363
+#  File has been updated.
+#  Successfully updated.
+ 
+make: *** No rule to make target `tcpservpoll01.o', needed by `tcpservpoll01'.  Stop.
+
+#  recipe to execute (from `Makefile', line 29):
+		${CC} ${CFLAGS} -o $@ tcpcli09.o str_cli09.o ${LIBS}
+
+# Not a target:
+tcpcli06.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.511071476
+#  File has been updated.
+#  Successfully updated.
+
+all: tcpcli01 tcpcli04 tcpcli05 tcpcli06 tcpcli07 tcpcli08 tcpcli09 tcpcli10 tcpserv01 tcpserv02 tcpserv03 tcpserv04 tcpserv08 tcpserv09 tcpservselect01 tcpservpoll01 tsigpipe
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+tcpcli01: tcpcli01.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.369069802
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 11):
+		${CC} ${CFLAGS} -o $@ tcpcli01.o ${LIBS}
+
+# Not a target:
+tcpcli07.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.5640721
+#  File has been updated.
+#  Successfully updated.
+
+tcpserv08: tcpserv08.o str_echo08.o sigchldwaitpid.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:32.166079195
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 50):
+		${CC} ${CFLAGS} -o $@ tcpserv08.o str_echo08.o sigchldwaitpid.o \
+			${LIBS}
+
+tcpserv09: tcpserv09.o str_echo09.o sigchldwaitpid.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:32.252080209
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 54):
+		${CC} ${CFLAGS} -o $@ tcpserv09.o str_echo09.o sigchldwaitpid.o \
+			${LIBS}
+
+tcpcli10: tcpcli10.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.804074929
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 32):
+		${CC} ${CFLAGS} -o $@ tcpcli10.o ${LIBS}
+
+# Not a target:
+tcpcli01.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.305069048
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+str_cli08.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.649073102
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpserv08.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:32.116078606
+#  File has been updated.
+#  Successfully updated.
+
+tcpcli11: tcpcli11.o str_cli11.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 35):
+		${CC} ${CFLAGS} -o $@ tcpcli11.o str_cli11.o ${LIBS}
+
+# Not a target:
+tcpcli08.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.617072725
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpcli10.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.789074752
+#  File has been updated.
+#  Successfully updated.
+
+tcpserv01: tcpserv01.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.856075542
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 38):
+		${CC} ${CFLAGS} -o $@ tcpserv01.o ${LIBS}
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2002-11-14 11:33:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpcli11.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tcpserv01.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.840075353
+#  File has been updated.
+#  Successfully updated.
+
+tsigpipe: tsigpipe.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 64):
+		${CC} ${CFLAGS} -o $@ tsigpipe.o ${LIBS}
+
+# Not a target:
+tcpcli09.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.700073703
+#  File has been updated.
+#  Successfully updated.
+
+tcpserv02: tcpserv02.o sigchldwait.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.93907652
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 41):
+		${CC} ${CFLAGS} -o $@ tcpserv02.o sigchldwait.o ${LIBS}
+
+tcpservpoll01: tcpservpoll01.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 61):
+		${CC} ${CFLAGS} -o $@ tcpservpoll01.o ${LIBS}
+
+# Not a target:
+str_cli11.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tcpserv02.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.889075931
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpservpoll01.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+tcpservselect01: tcpservselect01.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:32.318080987
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 58):
+		${CC} ${CFLAGS} -o $@ tcpservselect01.o ${LIBS}
+
+tcpserv03: tcpserv03.o sigchldwait.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.993077156
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 44):
+		${CC} ${CFLAGS} -o $@ tcpserv03.o sigchldwait.o ${LIBS}
+
+tcpcli05: tcpcli05.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.473071028
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 17):
+		${CC} ${CFLAGS} -o $@ tcpcli05.o ${LIBS}
+
+# Not a target:
+tcpservselect01.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:32.30308081
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpcli05.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.457070839
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpserv03.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.976076956
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sigchldwaitpid.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:32.064077993
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 67):
+		rm -f ${PROGS} ${CLEANFILES}
+
+# Not a target:
+tsigpipe.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tcpcli04: tcpcli04.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:31.423070438
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 14):
+		${CC} ${CFLAGS} -o $@ tcpcli04.o ${LIBS}
+
+# Not a target:
+str_cli09.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.741074186
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpserv09.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:32.203079632
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpcli04.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.405070226
+ 
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sigchldwait.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:31.92207632
+#  File has been updated.
+#  Successfully updated.
+
+tcpserv04: tcpserv04.o sigchldwaitpid.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-25 16:11:32.080078182
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from `Makefile', line 47):
+		${CC} ${CFLAGS} -o $@ tcpserv04.o sigchldwaitpid.o ${LIBS}
+
+# Not a target:
+str_echo09.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:32.237080032
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tcpserv04.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:32.033077628
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+str_echo08.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-25 16:11:32.15207903
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../Make.defines:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-27 15:37:47.551670392
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=49/1024=5%, Rehash=0, Collisions=14/123=11%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0 / lookups = 171 / hits = 171
+# # of strcache buffers: 1 (* 8176 B/buffer = 8176 B)
+# strcache used: total = 0 (1037) / max = 0 / min = 8176 / avg = 0
+# strcache free: total = 0 (7139) / max = 0 / min = 8176 / avg = 0
+
+# strcache hash-table stats:
+# Load=89/8192=1%, Rehash=0, Collisions=1/171=1%
+# Finished Make data base on Tue Jul 26 19:30:05 2022
+
+ 

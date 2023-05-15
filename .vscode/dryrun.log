@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/home/test/myvscode'
+make: Leaving directory `/home/test/myvscode'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

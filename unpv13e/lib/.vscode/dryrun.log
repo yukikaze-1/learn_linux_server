@@ -1,0 +1,59 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/home/test/myvscode/unpv13e/lib'
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o connect_nonb.o connect_nonb.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o connect_timeo.o connect_timeo.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o daemon_inetd.o daemon_inetd.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o daemon_init.o daemon_init.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o dg_cli.o dg_cli.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o dg_echo.o dg_echo.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o error.o error.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o get_ifi_info.o get_ifi_info.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o gf_time.o gf_time.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o host_serv.o host_serv.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o family_to_level.o family_to_level.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o mcast_leave.o mcast_leave.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o mcast_join.o mcast_join.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o mcast_get_if.o mcast_get_if.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o mcast_get_loop.o mcast_get_loop.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o mcast_get_ttl.o mcast_get_ttl.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o mcast_set_if.o mcast_set_if.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o mcast_set_loop.o mcast_set_loop.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o mcast_set_ttl.o mcast_set_ttl.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o my_addrs.o my_addrs.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o read_fd.o read_fd.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o readline.o readline.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o readn.o readn.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o readable_timeo.o readable_timeo.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o rtt.o rtt.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o signal.o signal.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o signal_intr.o signal_intr.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_bind_wild.o sock_bind_wild.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_cmp_addr.o sock_cmp_addr.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_cmp_port.o sock_cmp_port.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_ntop.o sock_ntop.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_ntop_host.o sock_ntop_host.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_get_port.o sock_get_port.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_set_addr.o sock_set_addr.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_set_port.o sock_set_port.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sock_set_wild.o sock_set_wild.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o sockfd_to_family.o sockfd_to_family.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o str_cli.o str_cli.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o str_echo.o str_echo.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o tcp_connect.o tcp_connect.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o tcp_listen.o tcp_listen.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o tv_sub.o tv_sub.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o udp_client.o udp_client.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o udp_connect.o udp_connect.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o udp_server.o udp_server.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o wraplib.o wraplib.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o wrapsock.o wrapsock.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o wrapstdio.o wrapstdio.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o wrappthread.o wrappthread.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o wrapunix.o wrapunix.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o write_fd.o write_fd.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o writen.o writen.c
+gcc -I../lib -g -O2 -D_REENTRANT -Wall   -c -o writable_timeo.o writable_timeo.c
+ar rv ../libunp.a connect_nonb.o connect_timeo.o daemon_inetd.o daemon_init.o dg_cli.o dg_echo.o error.o get_ifi_info.o gf_time.o host_serv.o family_to_level.o mcast_leave.o mcast_join.o mcast_get_if.o mcast_get_loop.o mcast_get_ttl.o mcast_set_if.o mcast_set_loop.o mcast_set_ttl.o my_addrs.o read_fd.o readline.o readn.o readable_timeo.o rtt.o signal.o signal_intr.o sock_bind_wild.o sock_cmp_addr.o sock_cmp_port.o sock_ntop.o sock_ntop_host.o sock_get_port.o sock_set_addr.o sock_set_port.o sock_set_wild.o sockfd_to_family.o str_cli.o str_echo.o tcp_connect.o tcp_listen.o tv_sub.o udp_client.o udp_connect.o udp_server.o wraplib.o wrapsock.o wrapstdio.o wrappthread.o wrapunix.o write_fd.o writen.o writable_timeo.o
+ranlib ../libunp.a
+make: Leaving directory `/home/test/myvscode/unpv13e/lib'
+ 
